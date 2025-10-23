@@ -14,11 +14,6 @@ See [README.md](./200/README.md)
 
 See [README.md](./300/README.md)
 
-- **“Testing Python Code with pytest” by Reindert-Jan Ekker**
-- **“Unit Testing with Python” by Emily Bache**
-- **“Advanced Python Test Patterns” (if available)**
-- **“CI/CD for Python Applications”** - Look for courses covering GitHub Actions, GitLab CI, or Jenkins
-
 ## 400 - Testing Frameworks & Tools for Enterprise TDD
 
 See [README.md](./400/README.md)
