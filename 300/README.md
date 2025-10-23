@@ -25,12 +25,3 @@ See [README.md](./500/README.md)
 ## 600 - Learning Path
 
 See [README.md](./600/README.md)
-
-1. Start with pytest basics and TDD fundamentals
-2. Practice the Red-Green-Refactor cycle on small projects
-3. Learn mocking and test doubles
-4. Implement tests in a CI/CD pipeline
-5. Study enterprise patterns (repository pattern, dependency injection)
-6. Practice refactoring legacy code with tests
-
-Would you like me to search for the most current Pluralsight courses or any newer resources that might have been published recently?​​​​​​​​​​​​​​​​
