@@ -2,7 +2,9 @@
 
 I’ll help you get started with professional-level TDD in Python for CI/CD environments. Here’s a comprehensive guide:
 
-## Essential Books
+## 100 - Essential Books
+
+See [README.md](./100/README.md)
 
 **Kindle/Books:**
 
@@ -11,7 +13,9 @@ I’ll help you get started with professional-level TDD in Python for CI/CD envi
 - **“Architecture Patterns with Python” by Harry Percival & Bob Gregory** - TDD in the context of clean architecture and domain-driven design
 - **“Test-Driven Development: By Example” by Kent Beck** - The foundational TDD book (language-agnostic but essential reading)
 
-## GitHub Repositories
+## 200 - GitHub Repositories
+
+See [README.md](./200/README.md)
 
 **Example Projects:**
 
@@ -21,14 +25,18 @@ I’ll help you get started with professional-level TDD in Python for CI/CD envi
 - **cosmicpython/code** - Companion repo for “Architecture Patterns with Python” book
 - **realpython/pytest-examples** - Collection of pytest patterns and examples
 
-## Pluralsight Courses
+## 300 - Pluralsight Courses
+
+See [README.md](./300/README.md)
 
 - **“Testing Python Code with pytest” by Reindert-Jan Ekker**
 - **“Unit Testing with Python” by Emily Bache**
 - **“Advanced Python Test Patterns” (if available)**
 - **“CI/CD for Python Applications”** - Look for courses covering GitHub Actions, GitLab CI, or Jenkins
 
-## Testing Frameworks & Tools for Enterprise TDD
+## 400 - Testing Frameworks & Tools for Enterprise TDD
+
+See [README.md](./400/README.md)
 
 **Core Framework:**
 
@@ -51,7 +59,9 @@ I’ll help you get started with professional-level TDD in Python for CI/CD envi
 - **freezegun** - Time mocking
 - **factory_boy** / **faker** - Test data generation
 
-## Enterprise TDD Best Practices
+## 500 - Enterprise TDD Best Practices
+
+See [README.md](./500/README.md)
 
 **Test Structure:**
 
@@ -79,7 +89,9 @@ I’ll help you get started with professional-level TDD in Python for CI/CD envi
 - Test behavior, not implementation
 - Use descriptive test names
 
-## Learning Path
+## 600 - Learning Path
+
+See [README.md](./600/README.md)
 
 1. Start with pytest basics and TDD fundamentals
 1. Practice the Red-Green-Refactor cycle on small projects
