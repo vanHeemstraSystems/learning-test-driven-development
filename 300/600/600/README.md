@@ -497,7 +497,7 @@ def test_apply_discount_regular():
 **Courses:**
 
 - Search Pluralsight for “Working with Legacy Code” or “Refactoring Python”
-- Emily Bache’s courses on testing and refactoring
+- [Emily Bache](../../../EMILY_BACHE.md)’s courses on testing and refactoring
 
 ## The Mindset Shift
 
@@ -510,5 +510,3 @@ Refactoring legacy code requires patience and discipline. Remember:
 - **Celebrate small wins** - Every function you make testable is progress
 
 The goal isn’t perfection—it’s making the code slightly more maintainable with each change, until eventually you’ve transformed a legacy mess into a well-tested, modular system.
-
-Would you like me to elaborate on any specific technique, or would you like a hands-on exercise to practice these concepts?​​​​​​​​​​​​​​​​
