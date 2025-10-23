@@ -1,3 +1,91 @@
 # 300 - Learning Our Subject
 
-To Do
+I’ll help you get started with professional-level TDD in Python for CI/CD environments. Here’s a comprehensive guide:
+
+## Essential Books
+
+**Kindle/Books:**
+
+- **“Test Driven Development with Python” by Harry Percival** (also known as “Obey the Testing Goat”) - The gold standard for Python TDD, covers Django and web development with practical examples
+- **“Python Testing with pytest” by Brian Okken** - Deep dive into pytest, the industry-standard testing framework
+- **“Architecture Patterns with Python” by Harry Percival & Bob Gregory** - TDD in the context of clean architecture and domain-driven design
+- **“Test-Driven Development: By Example” by Kent Beck** - The foundational TDD book (language-agnostic but essential reading)
+
+## GitHub Repositories
+
+**Example Projects:**
+
+- **pytest-dev/pytest** - Study the source code of pytest itself for best practices
+- **pallets/flask** - Well-tested Flask framework with excellent test examples
+- **django/django** - Django’s test suite is exemplary for large-scale projects
+- **cosmicpython/code** - Companion repo for “Architecture Patterns with Python” book
+- **realpython/pytest-examples** - Collection of pytest patterns and examples
+
+## Pluralsight Courses
+
+- **“Testing Python Code with pytest” by Reindert-Jan Ekker**
+- **“Unit Testing with Python” by Emily Bache**
+- **“Advanced Python Test Patterns” (if available)**
+- **“CI/CD for Python Applications”** - Look for courses covering GitHub Actions, GitLab CI, or Jenkins
+
+## Testing Frameworks & Tools for Enterprise TDD
+
+**Core Framework:**
+
+- **pytest** - Industry standard, powerful fixtures, plugins, and parametrization
+- **unittest** - Built-in, good for understanding fundamentals
+- **pytest-cov** - Coverage reporting
+- **pytest-xdist** - Parallel test execution
+
+**CI/CD Integration:**
+
+- **tox** - Test across multiple Python versions
+- **nox** - More flexible alternative to tox
+- **pytest-html** - Generate HTML test reports
+- **allure-pytest** - Enterprise-grade test reporting
+
+**Mocking & Testing:**
+
+- **pytest-mock** - Wrapper around unittest.mock
+- **responses** / **requests-mock** - HTTP mocking
+- **freezegun** - Time mocking
+- **factory_boy** / **faker** - Test data generation
+
+## Enterprise TDD Best Practices
+
+**Test Structure:**
+
+- Use the Arrange-Act-Assert (AAA) pattern
+- Follow the test pyramid (many unit tests, fewer integration tests, minimal E2E)
+- Keep tests independent and idempotent
+- Use fixtures for setup/teardown
+
+**CI/CD Pipeline:**
+
+```
+1. Lint (flake8, black, mypy)
+2. Unit tests (fast, isolated)
+3. Integration tests
+4. Coverage reporting (aim for 80%+ coverage)
+5. Build artifacts
+6. Deploy to staging/production
+```
+
+**Key Principles:**
+
+- Write the test first (Red-Green-Refactor cycle)
+- Keep tests fast (mock external dependencies)
+- One assertion per test (when possible)
+- Test behavior, not implementation
+- Use descriptive test names
+
+## Learning Path
+
+1. Start with pytest basics and TDD fundamentals
+1. Practice the Red-Green-Refactor cycle on small projects
+1. Learn mocking and test doubles
+1. Implement tests in a CI/CD pipeline
+1. Study enterprise patterns (repository pattern, dependency injection)
+1. Practice refactoring legacy code with tests
+
+Would you like me to search for the most current Pluralsight courses or any newer resources that might have been published recently?​​​​​​​​​​​​​​​​
